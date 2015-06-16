@@ -2,8 +2,12 @@
 layout: page
 sidebar: left
 title:  "News on Nine and Moat 2014"
-teaser: ""
-breadcrumb: false
+teaser: "So today I have some good news and some bad news. The good news is that
+Moat Festival 2014 commences this week starting tomorrow kicking off an
+exciting two week theatre festival season at La Trobe University which
+includes a variety of really exciting shows and even an art exhibition
+which is a new addition this year."
+breadcrumb: true
 tags:
     - theatre
 categories:

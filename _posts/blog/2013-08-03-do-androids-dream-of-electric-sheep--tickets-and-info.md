@@ -3,8 +3,11 @@ layout: page
 sidebar: left
 subheadline: Tickets and info
 title:  "Do Androids Dream of Electric Sheep?"
-teaser: ""
-breadcrumb: false
+teaser: "Student Theatre and Film’s artistic director, Bob Pavlich, directs Do
+Androids Dream of Electric Sheep? This New York adaptation of the novel
+by Phillip K. Dick is the basis for the film Blade Runner and promises
+to enthral audiences. "
+breadcrumb: true
 tags:
     - theatre
 categories:

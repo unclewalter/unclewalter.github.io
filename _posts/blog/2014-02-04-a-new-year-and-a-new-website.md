@@ -2,8 +2,12 @@
 layout: page
 sidebar: left
 title:  "A New Year and a New website!"
-teaser: ""
-breadcrumb: false
+teaser: "First of all, I must apologize for being rather quiet for the past few
+months. I have neglected to keep folks in the loop just from the sheer
+chaos of the past 5 months. But now it’s looking as though things are
+reaching a steady state and heading in a clearer direction than when I
+abruptly stopped posting. Anyway, let me get you all up to speed."
+breadcrumb: true
 tags:
     - theatre
 categories:

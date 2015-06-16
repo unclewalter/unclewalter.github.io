@@ -3,8 +3,15 @@ layout: page
 sidebar: left
 subheadline: Tickets and info
 title:  "The Gate"
-teaser: ""
-breadcrumb: false
+teaser: "A city teeters on the verge of anarchy. Inside, authorities attempt to
+tighten their control against the threat of foreign invasion. Outside, a
+motley group of criminals and dissidents wait for a trial that never
+comes – but of what are they guilty? If these outcasts can infiltrate
+the city walls, they can destroy the record of their crimes and perhaps,
+begin again. A comedy about legacy, guilt and honour in a world on the
+edge of darkness, *The Gate* reunites an award-winning writer-director
+team for the premiere of a new Australian play."
+breadcrumb: true
 tags:
     - theatre
 categories:

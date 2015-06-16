@@ -2,8 +2,21 @@
 layout: page
 sidebar: left
 title:  "Nine Rehearsals - Week 1"
-teaser: ""
-breadcrumb: false
+teaser: "The first of the really exciting projects I'm working on this year is a
+play called "Nine" by Jane Shepard directed by [May
+Parley](http://www.starnow.com.au/maylynnparley "http://www.starnow.com.au/maylynnparley").
+A two-hander originally written for two women which explores the human
+will to live through it's two characters, in this case being a man
+(portrayed by me) and a woman ([Asleen
+Mauthoor](http://www.imdb.com/name/nm5619395/ "http://www.imdb.com/name/nm5619395/")).
+We're performing this in a really cool space; the storage room in Union
+Hall at La Trobe University. It's a fantastic space when embraced for
+what it is. On Thursday, we had a meeting with [Tom
+Willis](http://www.brightsparklighting.com.au/ "http://www.brightsparklighting.com.au/"),
+the lighting designer who alongside May had some really strong (yet
+simple) concepts to underpin the design of the show and was generally
+quite positive about the direction we were going in."
+breadcrumb: true
 tags:
     - theatre
 categories:
