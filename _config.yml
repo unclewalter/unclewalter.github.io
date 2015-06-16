@@ -219,6 +219,8 @@ prose:
     - /LICENSE.md
     - /_layouts
     - /_includes
+    - /_sass
+    - /_data
     - /assets
     - /blog
   siteurl: 'http://unclewalter.github.io/'
