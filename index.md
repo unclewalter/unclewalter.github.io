@@ -2,7 +2,7 @@
 layout: frontpage
 title: About
 header: 
-  image_fullwidth: header_kevanparis.jpg
+  image_fullwidth: header_kevanparis1.jpg
 published: true
 ---
 
