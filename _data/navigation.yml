@@ -1,0 +1,32 @@
+- title: About
+  url: "/"
+  side: left
+
+- title: "Works"
+  url: "/works/"
+  side: left
+
+- title: "Projects"
+  url: "/projects/"
+  side: left
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: Blog
+    url: "/blog/"
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: Events
+  url: "/events/"
+  side: left
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: "Contact"
+  url: "/contact/"
+  side: right

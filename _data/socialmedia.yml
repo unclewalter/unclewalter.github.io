@@ -1,0 +1,24 @@
+- name: Facebook
+  url: https://www.facebook.com/KevanAtkins
+  class: icon-facebook
+  title: "Facebook page"
+
+- name: Soundcloud
+  url: http://soundcloud.com/unclewalter
+  class: icon-soundcloud
+  title: "Music"
+
+- name: Instagram
+  url: http://instagram.com/unclewalter1
+  class: icon-instagram
+  title: "Narcissism"
+
+- name: LinkedIn
+  url: https://www.linkedin.com/in/kevanatkins
+  class: icon-linkedin
+  title: "LinkedIn"
+
+- name: GitHub
+  url: http://github.com/unclewalter/
+  class: icon-github
+  title: "Code and such"
