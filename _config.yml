@@ -226,7 +226,7 @@ prose:
   relativeLinks: 'links.jsonp'
 
   metadata:
-    "":
+    posts/works:
       - name: "layout"
         field:
           element: "hidden"
@@ -241,7 +241,7 @@ prose:
           element: "checkbox"
           label: "Published"
           value: false
-    _posts:
+    _posts/blog:
       - name: "layout"
         field:
           element: "hidden"
