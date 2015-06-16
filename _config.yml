@@ -229,11 +229,11 @@ prose:
     - /LICENSE
     - /README.md
     - /_config_dev.yml
-    # - /feed.xml
+    - /feed.xml
     - /humans.txt
     - /links.jsonp
     - /robots.txt
-    # - /sitemap.xml
+    - /sitemap.xml
 
   siteurl: 'http://unclewalter.github.io/'
   media: 'images'
