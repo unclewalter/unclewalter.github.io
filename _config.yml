@@ -223,6 +223,18 @@ prose:
     - /_data
     - /assets
     - /blog
+    - /.gitignore
+    - /Gemfile
+    - /LICENCE.md
+    - /LICENSE
+    - /README.md
+    - /_config_dev.yml
+    # - /feed.xml
+    - /humans.txt
+    - /links.jsonp
+    - /robots.txt
+    # - /sitemap.xml
+
   siteurl: 'http://unclewalter.github.io/'
   media: 'images'
   relativeLinks: 'links.jsonp'
