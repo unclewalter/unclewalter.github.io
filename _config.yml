@@ -259,7 +259,15 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
+          value: "page"
+      - name: "sidebar"
+        field:
+          element: "select"
+          options:
+          - name: 'Sidebar Left'
+            value: 'left'
+          - name: 'Sidebar Right'
+            value: 'right'
       - name: "title"
         field:
           element: "text"
@@ -270,4 +278,13 @@ prose:
           element: "checkbox"
           label: "Published"
           value: false
+      - name: "breadcrumb"
+        field:
+          element: "checkbox"
+          label: "Breadcrumb"
+          value: false
+      - name: "teaser"
+        field:
+          element: "textarea"
+          label: "teaser"
 
