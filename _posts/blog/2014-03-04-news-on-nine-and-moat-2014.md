@@ -1,4 +1,14 @@
---- layout: post title: News on Nine and Moat 2014 ---
+---
+layout: page
+sidebar: left
+title:  "News on Nine and Moat 2014"
+teaser: ""
+breadcrumb: false
+tags:
+    - theatre
+categories:
+    - blog
+---
 
 So today I have some good news and some bad news. The good news is that
 Moat Festival 2014 commences this week starting tomorrow kicking off an

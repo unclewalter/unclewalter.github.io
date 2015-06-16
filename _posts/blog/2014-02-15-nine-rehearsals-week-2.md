@@ -1,4 +1,14 @@
---- layout: post title: Nine Rehearsals - Week 2 ---
+---
+layout: page
+sidebar: left
+title:  "Nine Rehearsals - Week 2"
+teaser: ""
+breadcrumb: false
+tags:
+    - theatre
+categories:
+    - blog
+---
 
 Only two weeks in things are moving so quickly already. With only one
 rehearsal this week, I'm surprised we covered as much ground as we did.

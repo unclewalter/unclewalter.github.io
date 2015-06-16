@@ -1,4 +1,14 @@
---- layout: post title: A New Year and a New website! ---
+---
+layout: page
+sidebar: left
+title:  "A New Year and a New website!"
+teaser: ""
+breadcrumb: false
+tags:
+    - theatre
+categories:
+    - blog 
+---
 
 First of all, I must apologize for being rather quiet for the past few
 months. I have neglected to keep folks in the loop just from the sheer

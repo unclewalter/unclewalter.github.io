@@ -1,4 +1,15 @@
---- layout: post title: Androids and QLab ---
+---
+layout: page
+sidebar: left
+subheadline:
+title:  "Androids and QLab"
+teaser: ""
+breadcrumb: false
+tags:
+    - theatre
+categories:
+    - blog
+---
 
 Just had the sound/lighting operator in for today’s run. 116 sound cues
 (91 triggered and 25 auto-follow). Hopefully it didn’t look too scary…

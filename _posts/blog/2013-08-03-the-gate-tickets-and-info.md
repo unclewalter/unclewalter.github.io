@@ -1,4 +1,15 @@
---- layout: post title: The Gate - Tickets and info ---
+---
+layout: page
+sidebar: left
+subheadline: Tickets and info
+title:  "The Gate"
+teaser: ""
+breadcrumb: false
+tags:
+    - theatre
+categories:
+    - blog
+---
 
 ***Presented by Centre for Theatre and Performance***
 

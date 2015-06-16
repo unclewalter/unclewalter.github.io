@@ -1,5 +1,15 @@
---- layout: post title: Do Androids Dream of Electric Sheep? - Tickets
-and info ---
+---
+layout: page
+sidebar: left
+subheadline: Tickets and info
+title:  "Do Androids Dream of Electric Sheep?"
+teaser: ""
+breadcrumb: false
+tags:
+    - theatre
+categories:
+    - blog
+---
 
 Adaptation by Edward Einhorn \
 Music by Henry Akona \

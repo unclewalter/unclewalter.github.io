@@ -1,4 +1,14 @@
---- layout: post title: Nine Rehearsals - Week 1 ---
+---
+layout: page
+sidebar: left
+title:  "Nine Rehearsals - Week 1"
+teaser: ""
+breadcrumb: false
+tags:
+    - theatre
+categories:
+    - blog 
+---
 
 The first of the really exciting projects I'm working on this year is a
 play called "Nine" by Jane Shepard directed by [May
