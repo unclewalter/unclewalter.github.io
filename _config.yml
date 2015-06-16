@@ -205,3 +205,55 @@ sass:
 
 # google_analytics_tracking_id: UA-60112281-1
 
+#     ____                     
+#    / __ \_________  ________ 
+#   / /_/ / ___/ __ \/ ___/ _ \
+#  / ____/ /  / /_/ (__  )  __/
+# /_/   /_/   \____/____/\___/ 
+# 
+
+prose:
+  ignore:
+    - /\..*
+    - /_config.yml
+    - /LICENSE.md
+    - /_layouts
+    - /_includes
+    - /assets
+    - /blog
+  siteurl: 'http://unclewalter.github.io/'
+  media: 'images'
+  relativeLinks: 'links.jsonp'
+
+  metadata:
+    "":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
+
