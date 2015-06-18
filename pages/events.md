@@ -4,6 +4,6 @@ show_meta: false
 title: "Events"
 subheadline: ""
 header:
-   image_fullwidth: "header_unsplash_5.jpg"
+   image_fullwidth: "header_kevanparis1.jpg"
 permalink: "/events/"
 ---
