@@ -1,6 +1,6 @@
 ---
 layout: page
-published: false
+published: true
 title: Complete Overhaul
 sidebar: left
 breadcrumb: false
