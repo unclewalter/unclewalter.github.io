@@ -113,9 +113,10 @@ defaults:
 # 
 
 collections:
-  - works:
-    output: true
-    permalink: /works/:path/
+  # - works:
+  #   output: true
+  #   permalink: /works/:path/
+  # For some reason this code causes build failure. Suspected bug in Jekyll.
 
 
 
