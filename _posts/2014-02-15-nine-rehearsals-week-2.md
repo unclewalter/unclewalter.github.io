@@ -13,8 +13,7 @@ the whole process has just started but is also nearing the end as well. "
 breadcrumb: true
 tags:
     - theatre
-categories:
-    - blog
+
 ---
 
 Only two weeks in things are moving so quickly already. With only one

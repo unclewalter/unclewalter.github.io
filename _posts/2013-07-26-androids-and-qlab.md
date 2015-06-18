@@ -7,8 +7,6 @@ teaser: null
 breadcrumb: false
 tags: 
   - theatre
-categories: 
-  - blog
 published: true
 ---
 

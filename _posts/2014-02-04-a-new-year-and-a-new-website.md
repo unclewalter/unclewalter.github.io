@@ -10,8 +10,7 @@ abruptly stopped posting. Anyway, let me get you all up to speed."
 breadcrumb: true
 tags:
     - theatre
-categories:
-    - blog 
+ 
 ---
 
 First of all, I must apologize for being rather quiet for the past few

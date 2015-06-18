@@ -10,8 +10,7 @@ to enthral audiences. "
 breadcrumb: true
 tags:
     - theatre
-categories:
-    - blog
+
 ---
 
 Adaptation by Edward Einhorn \

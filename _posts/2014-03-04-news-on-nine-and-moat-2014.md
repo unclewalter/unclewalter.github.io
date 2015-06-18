@@ -10,8 +10,7 @@ which is a new addition this year."
 breadcrumb: true
 tags:
     - theatre
-categories:
-    - blog
+
 ---
 
 So today I have some good news and some bad news. The good news is that

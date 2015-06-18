@@ -14,8 +14,7 @@ team for the premiere of a new Australian play."
 breadcrumb: true
 tags:
     - theatre
-categories:
-    - blog
+
 ---
 
 ***Presented by Centre for Theatre and Performance***
