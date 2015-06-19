@@ -1,10 +1,16 @@
 ---
+layout: page
 title: "Do Androids Dream of Electric Sheep?"
 role: "Sound Designer/Musical Director"
 client: "La Trobe Student Theatre"
 client_link: "q"
 teaser: "Most people emigrate to Mars - unless they have a job to do on Earth. Like Rick Deckard - android killer for the police and owner of an electric sheep. He has to find, identify, and kill six androids which have escaped from Mars. They're machines, but they look and sound and think like humans - clever, dangerous humans."
 frontpage: true
+
+categories: 
+  - theatre
+  - soundtrack
+  - sound design
 ---
 Adaptation by Edward Einhorn
 

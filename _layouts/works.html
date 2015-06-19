@@ -6,14 +6,18 @@ noindex: true
 header:
    image_fullwidth: "header_kevanparis1.jpg"
 ---
-<div class="row works">
-	{% for work in site.works %}
-	<div class="row works-item {% for category in work.categories %}categories.category {% endfor %}">
-	  <h2>{{ work.title }}</h2>
-	  <h3>{{ work.role }}</h3>
+<div class="row">
+	<h1>Works</h1>
+</div>
 
-	  {{ work.content }}
+<div class="row works">
+	{% for work in site.works reversed %}
+	<article class="row works-item {% for category in work.categories %} category-{{ category | slugify }}{% endfor %}">
+	  <h2 class="work-title"><a href="{{ site.url }}{{ work.url }}">{{ work.title }}</a> <small class="date"> - {{ work.date }}</small></h2>
+	  <h4>{{ work.role }}</h4>
+
+	  <p>{{ work.teaser }}</p>
 	    
-  </div>
+  </article>
 {% endfor %}
 </div><!-- /.row -->

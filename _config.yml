@@ -115,7 +115,7 @@ defaults:
 collections:
   works:
     output: true
-    permalink: /works/:path/
+    permalink: /works/:title/
     layout: 
     sidebar:
     subheadline: 
