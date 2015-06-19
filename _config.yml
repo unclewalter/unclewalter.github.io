@@ -116,6 +116,7 @@ collections:
   works:
     output: true
     permalink: /works/:title/
+    date:
     layout: 
     sidebar:
     subheadline: 

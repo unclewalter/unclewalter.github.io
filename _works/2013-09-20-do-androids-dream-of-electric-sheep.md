@@ -1,5 +1,7 @@
 ---
 layout: page
+date: "September 2013"
+image: "works/androids.jpeg"
 title: "Do Androids Dream of Electric Sheep?"
 role: "Sound Designer/Musical Director"
 client: "La Trobe Student Theatre"

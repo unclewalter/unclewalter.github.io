@@ -8,16 +8,25 @@ header:
 ---
 <div class="row">
 	<h1>Works</h1>
+	<div id="filters" class="button-group"> <a class="filter" category-filter="all">show all</a> | 
+	  <a class="filter" category-filter="film">film</a> | 
+	  <a class="filter" category-filter="theatre">theatre</a> | 
+	  <a class="filter" category-filter="sound-design">sound design</a>
+	</div>
 </div>
 
-<div class="row works">
+<div id="works-container" class="row">
+	<!-- Make this semantic -->
+	<div class="works-list">
 	{% for work in site.works reversed %}
-	<article class="row works-item {% for category in work.categories %} category-{{ category | slugify }}{% endfor %}">
+	<div class="works-item {% for category in work.categories %} category-{{ category | slugify }}{% endfor %}" style="">
 	  <h2 class="work-title"><a href="{{ site.url }}{{ work.url }}">{{ work.title }}</a> <small class="date"> - {{ work.date }}</small></h2>
 	  <h4>{{ work.role }}</h4>
 
 	  <p>{{ work.teaser }}</p>
 	    
-  </article>
+  </div>
 {% endfor %}
+</div>
 </div><!-- /.row -->
+

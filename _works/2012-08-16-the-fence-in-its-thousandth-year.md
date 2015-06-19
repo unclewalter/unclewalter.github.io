@@ -1,5 +1,7 @@
 ---
 layout: page
+date: "August 2012"
+image: "works/fence.jpeg"
 title: "The Fence In Its Thousandth Year"
 role: "Composer/Sound Designer"
 client: "La Trobe Student Theatre"

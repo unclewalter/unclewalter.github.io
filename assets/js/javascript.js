@@ -7559,3 +7559,16 @@ var getText = docElem.textContent ?
   return Isotope;
 
 }));
+
+$(document).ready(function(){
+    $(".filter").click(function(){
+    	var filter = $(this).attr("category-filter");
+    	if (filter == "all") {
+    		$('.works-item').show(1000);
+    	} 
+    	else {
+    		$('works-item, .category-'+filter).show(1000);
+        $(".works-item:not('.category-"+filter+"')").hide(1000);
+    	}
+    });
+});

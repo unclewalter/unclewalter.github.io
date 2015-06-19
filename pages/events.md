@@ -2,8 +2,8 @@
 layout: page
 show_meta: false
 title: "Events"
-subheadline: ""
+subheadline: null
 header:
-   image_fullwidth: "header_kevanparis1.jpg"
+  image_fullwidth: "header_kevanparis1.jpg"
 permalink: "/events/"
 ---

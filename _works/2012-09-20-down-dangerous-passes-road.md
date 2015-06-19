@@ -1,5 +1,7 @@
 ---
 layout: page
+date: "September 2012"
+image: "works/ddpr.jpeg"
 title: "Down Dangerous Passes Road"
 role: "Composer/Sound Designer"
 client: "Grounded Astronaut Theatre"
