@@ -1,11 +1,5 @@
 ---
-layout: page
-show_meta: false
+layout: works
 title: "Works"
-subheadline: ""
-header:
-   image_fullwidth: "header_kevanparis1.jpg"
 permalink: "/works/"
 ---
-
-Under construction

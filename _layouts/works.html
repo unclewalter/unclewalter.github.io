@@ -6,13 +6,13 @@ noindex: true
 header:
    image_fullwidth: "header_kevanparis1.jpg"
 ---
-<div class="row">
+<div class="row works">
 	{% for work in site.works %}
 	<div class="row works-item {% for category in work.categories %}categories.category {% endfor %}">
 	  <h2>{{ work.title }}</h2>
 	  <h3>{{ work.role }}</h3>
 
-	  {{ content }}
+	  {{ work.content }}
 	    
   </div>
 {% endfor %}
