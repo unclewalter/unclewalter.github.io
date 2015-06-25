@@ -9,5 +9,5 @@ permalink: "/events/"
 ---
 
 <div class="row">
-	<div id="eventlist"></div>
-</div>
+	<ul id="eventlist"></ul>
+</div>	
