@@ -8,6 +8,3 @@ header:
 permalink: "/events/"
 ---
 
-<div class="row">
-	<div id="eventlist"></div>
-</div>
