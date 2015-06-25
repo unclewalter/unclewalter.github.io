@@ -7,8 +7,13 @@
   side: left
 
 - title: "Projects"
-  url: "/projects/"
+  url: null
   side: left
+  dropdown:
+  - title: "One thing"
+    url: ""
+  - title: "Another thing"
+  url: ""
 
 - title: Blog
   url: "/blog/"
