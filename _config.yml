@@ -21,7 +21,7 @@ description: "Kevan is a composer, sound artist & musician."
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "http://unclewalter.github.io"
+url: "http://kevanatkins.com"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
@@ -33,7 +33,7 @@ baseurl: ""
 # Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
-urlimg: "http://unclewalter.github.io/images/"
+urlimg: "http://kevanatkins.com/images/"
 
 
 # Logo size is 600x80 pixels
@@ -261,7 +261,7 @@ prose:
     - /robots.txt
     - /sitemap.xml
 
-  siteurl: 'http://unclewalter.github.io/'
+  siteurl: 'http://kevanatkins.com/'
   media: 'images'
   relativeLinks: 'links.jsonp'
 
