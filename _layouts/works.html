@@ -7,6 +7,10 @@ header:
    image_fullwidth: "header_kevanparis1.jpg"
 ---
 <div class="row">
+	<p>Under Construction.</p>
+</div>
+
+<div class="row">
 	<h1>Works</h1>
 	<div id="filters" class="button-group"> <a class="filter" category-filter="all">show all</a> | 
 	  <a class="filter" category-filter="film">film</a> | 
@@ -18,7 +22,6 @@ header:
 </div>
 
 <div id="works-container" class="row">
-	<!-- Make this semantic -->
 	<div class="works-list">
 	{% for work in site.works reversed %}
 	<div class="works-item {% for category in work.categories %} category-{{ category | slugify }}{% endfor %}" style="">
