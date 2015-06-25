@@ -7563,10 +7563,14 @@ var getText = docElem.textContent ?
 $(document).ready(function(){
     $(".filter").click(function(){
     	var filter = $(this).attr("category-filter");
+
     	if (filter == "all") {
     		$('.works-item').show(1000);
+    		$(".filter").removeClass("highlighted");
     	} 
     	else {
+    		$(this).addClass("highlighted");
+	      $(".filter").not(this).removeClass("highlighted");
     		$('works-item, .category-'+filter).show(1000);
         $(".works-item:not('.category-"+filter+"')").hide(1000);
     	}
