@@ -10,9 +10,9 @@
   url: null
   side: left
   dropdown:
-  - title: "One thing"
+  - title: ""
     url: ""
-  - title: "Another thing"
+  - title: ""
   url: ""
 
 - title: Blog
