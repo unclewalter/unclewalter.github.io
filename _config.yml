@@ -113,9 +113,9 @@ defaults:
 # 
 
 collections:
-  works:
+  work:
     output: true
-    permalink: /works/:title/
+    permalink: /work/:title/
     date:
     layout: 
     sidebar:

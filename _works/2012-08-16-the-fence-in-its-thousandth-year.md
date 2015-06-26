@@ -1,7 +1,6 @@
 ---
 layout: page
 date: "August 2012"
-image: "works/fence.jpeg"
 title: "The Fence In Its Thousandth Year"
 role: "Composer/Sound Designer"
 client: "La Trobe Student Theatre"
@@ -13,11 +12,10 @@ categories:
   - theatre
   - soundtrack
   - sound design
+
+header:
+  image_fullwidth: "works/fence.jpeg"
 ---
-La Trobe Student Theatre and Film is proud to present
-
-The Fence In Its Thousandth Year
-
 Written by Howard Barker
 
 Directed by Bob Pavlich

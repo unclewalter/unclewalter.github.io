@@ -2,8 +2,8 @@
   url: "/"
   side: left
 
-- title: "Works"
-  url: "/works/"
+- title: "Work"
+  url: "/work/"
   side: left
 
 - title: "Projects"
