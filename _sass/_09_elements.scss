@@ -149,16 +149,25 @@ img.lazy {
 ------------------------------------------------------------------- */
 
 // More styling to be done here.
-.filters {
+#works-filters {
   .filter {
-    
+  }
+  .highlighted {
+    text-decoration: underline;
   }
 }
 
-.highlighted {
-  text-decoration: underline;
-}
 
 /* Event Calendar
 ------------------------------------------------------------------- */
 
+#eventlist {
+  list-style-type: none;
+  li {
+    padding-bottom: 10px; 
+    border-bottom: 1px solid $grey-1;
+    .description {
+      white-space: pre-line;
+    }
+  }
+}

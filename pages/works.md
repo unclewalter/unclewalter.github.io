@@ -1,5 +1,5 @@
 ---
 layout: works
-title: "Works"
-permalink: "/works/"
+title: "Work"
+permalink: "/work/"
 ---
