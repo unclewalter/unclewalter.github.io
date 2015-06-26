@@ -113,7 +113,7 @@ defaults:
 # 
 
 collections:
-  work:
+  works:
     output: true
     permalink: /work/:title/
     date:
