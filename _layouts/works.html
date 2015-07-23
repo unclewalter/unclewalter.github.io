@@ -9,11 +9,11 @@ header:
 
 <div class="row">
 	<h1>Work</h1>
-	<div id="works-filters" class="button-group"> <a class="filter" category-filter="all">show all</a> | 
-	  <a class="filter" category-filter="film">film</a> | 
-	  <a class="filter" category-filter="theatre">theatre</a> | 
-	  <a class="filter" category-filter="instrumental">instrumental</a> | 
-	  <a class="filter" category-filter="electronic">electronic</a> | 
+	<div id="works-filters" class="button-group"> <a class="filter" category-filter="all">show all</a> |
+	  <a class="filter" category-filter="film">film</a> |
+	  <a class="filter" category-filter="theatre">theatre</a> |
+	  <a class="filter" category-filter="instrumental">instrumental</a> |
+	  <a class="filter" category-filter="electronic">electronic</a> |
 	  <a class="filter" category-filter="electroacoustic">electroacoustic</a>
 	</div>
 </div>
@@ -22,6 +22,7 @@ header:
 	</br>
 	<h5>Under Construction.</h5>
 </div>
+{% comment %}
 <div id="works-container" class="row">
 	<div class="works-list">
 	{% for work in site.works reversed %}
@@ -30,9 +31,12 @@ header:
 	  <h4>{{ work.role }}</h4>
 
 	  <p>{{ work.teaser }}</p>
-	    
+
   </div>
+
+
 {% endfor %}
 </div>
 </div><!-- /.row -->
 
+{% endcomment %}  
