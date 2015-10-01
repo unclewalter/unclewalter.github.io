@@ -3402,7 +3402,7 @@ $(document).foundation({
         });
       },
       error: function(xhr, status) {
-        $($div).append('<p>' + status +' : '+ defaults.errorMsg +'</p>');
+        $($div).append('<p>' + defaults.errorMsg +'</p>');
       }
     });
 
