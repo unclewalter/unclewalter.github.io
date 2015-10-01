@@ -1,7 +1,7 @@
 ---
 layout: page
 sidebar: left
-published: false
+published: true
 breadcrumb: false
 teaser: "Hey all, so following the Bendigo International Festival of Exploratory music this year, I have updated my chronometer software for a performance of Olga Neuwirth&#x27;s work _Maudite Soit La Guerre_. It has now hit the v1.0 milestone (actually 1.1.0 after a few changes), which I&#x27;m happy about and I&#x27;m proud to make it publically available now it is in a more user-friendly package."
 title: Sirius Chronometer
