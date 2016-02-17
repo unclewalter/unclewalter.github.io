@@ -292,8 +292,7 @@ body.video cite { color: #fff; }
 #subfooter {
     background: $subfooter-bg;
     color: $subfooter-color;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    overflow: hidden;
 }
     #subfooter-left ul.inline-list {
         float: left;
@@ -313,6 +312,7 @@ body.video cite { color: #fff; }
         color: $subfooter-bg;
         background: $subfooter-color;
         text-align: center;
+        margin-top: 30px;
     }
     #subfooter .social-icons li a:hover {
         background: $subfooter-bg;

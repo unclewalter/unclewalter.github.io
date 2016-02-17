@@ -9,6 +9,8 @@
 - Side-Nav
 - Accordion
 - Lazy Load XT
+- Event Calendar
+- Mailchimp Signup Form
 
 */
 
@@ -56,10 +58,10 @@
 .alert-box {
   font-family: $font-family-sans-serif;
   text-shadow: 0px 1px 1px rgba(0,0,0,0.9);
-} 
+}
   .alert-box p {
     margin-bottom: 0;
-  } 
+  }
   .alert-box a {
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
     color: #fff;
@@ -69,8 +71,8 @@
     border-bottom: 1px solid #fff;
   }
   .alert-box.terminal {
-    background: $grey-12; 
-    color: #fff; 
+    background: $grey-12;
+    color: #fff;
     border-color: scale-color($grey-12, $lightness: -14%);
     font-family: $font-family-monospace;
   }
@@ -164,10 +166,25 @@ img.lazy {
 #eventlist {
   list-style-type: none;
   li {
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
     border-bottom: 1px solid $grey-1;
     .description {
       white-space: pre-line;
     }
+  }
+}
+
+/* Mailchimp Signup Form
+------------------------------------------------------------------- */
+
+#mc_embed_signup {
+  background:transparent;
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+  width:100%;
+  // margin-top: -30px;
+  margin-bottom: -10px;
+  label {
+    color: #eee;
   }
 }
