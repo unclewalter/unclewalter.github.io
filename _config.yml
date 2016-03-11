@@ -1,11 +1,11 @@
 # ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
 #
-#      _____ _ __          _____      __  __  _                 
+#      _____ _ __          _____      __  __  _
 #     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
 #     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
-#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  ) 
-#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/  
-#                                                 /____/        
+#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  )
+#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
+#                                                 /____/
 #
 # Title of your website
 title: "Kevan Atkins"
@@ -33,7 +33,7 @@ baseurl: ""
 # Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
-urlimg: "http://kevanatkins.com/images/"
+urlimg: "http://kevanatkins.com/images"
 
 
 # Logo size is 600x80 pixels
@@ -69,12 +69,12 @@ exclude:
 
 
 #
-#       ____       ____            ____ 
+#       ____       ____            ____
 #      / __ \___  / __/___ ___  __/ / /_
 #     / / / / _ \/ /_/ __ `/ / / / / __/
-#    / /_/ /  __/ __/ /_/ / /_/ / / /_  
-#   /_____/\___/_/  \__,_/\__,_/_/\__/  
-#                                       
+#    / /_/ /  __/ __/ /_/ / /_/ / / /_
+#   /_____/\___/_/  \__,_/\__,_/_/\__/
+#
 # Default Settings
 
 defaults:
@@ -89,7 +89,7 @@ defaults:
       author: "Kevan Atkins"
   -
     scope:
-      path: ""        
+      path: ""
       type: "posts"
     values:
       show_meta: true   # Show metadata beneath all posts
@@ -99,48 +99,48 @@ defaults:
   # -
   #   scope:
   #     path: ""
-  #     type: "works"     # Works   
+  #     type: "works"     # Works
   #   values:
   #     layout: "default"
   #     published: true
   #     teaser: null
 
-#    ______      ____          __  _                 
+#    ______      ____          __  _
 #   / ____/___  / / /__  _____/ /_(_)___  ____  _____
 #  / /   / __ \/ / / _ \/ ___/ __/ / __ \/ __ \/ ___/
-# / /___/ /_/ / / /  __/ /__/ /_/ / /_/ / / / (__  ) 
-# \____/\____/_/_/\___/\___/\__/_/\____/_/ /_/____/  
-# 
+# / /___/ /_/ / / /  __/ /__/ /_/ / /_/ / / / (__  )
+# \____/\____/_/_/\___/\___/\__/_/\____/_/ /_/____/
+#
 
 collections:
   works:
     output: true
     permalink: /work/:title/
     date:
-    layout: 
+    layout:
     sidebar:
-    subheadline: 
-    title: 
-    role: 
+    subheadline:
+    title:
+    role:
     breadcrumb:
-    published: 
-    teaser: 
-#       _   __            _             __  _           
-#      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
+    published:
+    teaser:
+#       _   __            _             __  _
+#      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
 #     /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
 #    / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
-#   /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/ 
-#                       /____/                          
+#   /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/
+#                       /____/
 #
 #  Open _data/navigation.yml to adjust the left and right topbar navigation
 #
 
 
 
-#     _____ __________ 
+#     _____ __________
 #    / ___// ____/ __ \
 #    \__ \/ __/ / / / /
-#   ___/ / /___/ /_/ / 
+#   ___/ / /___/ /_/ /
 #  /____/_____/\____/    Verify Website to Webmaster Tools
 
 # google_author:             "https://plus.google.com/u/0/118311555303973066167"
@@ -150,10 +150,10 @@ collections:
 
 
 
-#       ______            _                      
+#       ______            _
 #      / ____/___ __   __(_)________  ____  _____
 #     / /_  / __ `/ | / / / ___/ __ \/ __ \/ ___/
-#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  ) 
+#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  )
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
@@ -171,10 +171,10 @@ msapplication_tileimage:                "msapplication_tileimage.png"           
 msapplication_tilecolor:                "#fabb00"
 
 
-#       ______                __                __  
+#       ______                __                __
 #      / ____/___ _________  / /_  ____  ____  / /__
 #     / /_  / __ `/ ___/ _ \/ __ \/ __ \/ __ \/ //_/
-#    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<   
+#    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
 og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
@@ -186,57 +186,57 @@ og_description:                     "Kevan is a composer, sound artist & musicia
 # og_site_name:                     ""
 
 
-#      _____            _       __   __  ___         ___      
+#      _____            _       __   __  ___         ___
 #     / ___/____  _____(_)___ _/ /  /  |/  /__  ____/ (_)___ _
 #     \__ \/ __ \/ ___/ / __ `/ /  / /|_/ / _ \/ __  / / __ `/
-#    ___/ / /_/ / /__/ / /_/ / /  / /  / /  __/ /_/ / / /_/ / 
-#   /____/\____/\___/_/\__,_/_/  /_/  /_/\___/\__,_/_/\__,_/  
+#    ___/ / /_/ / /__/ / /_/ / /  / /  / /  __/ /_/ / / /_/ /
+#   /____/\____/\___/_/\__,_/_/  /_/  /_/\___/\__,_/_/\__,_/
 #
 #  Open _data/socialmedia.yml to adjust the left and right topbar navigation
 #
 
 
-#        ____  _                      
+#        ____  _
 #       / __ \(_)________ ___  _______
 #      / / / / / ___/ __ `/ / / / ___/
-#     / /_/ / (__  ) /_/ / /_/ (__  ) 
-#    /_____/_/____/\__, /\__,_/____/  
-#                    /_/              
+#     / /_/ / (__  ) /_/ / /_/ (__  )
+#    /_____/_/____/\__, /\__,_/____/
+#                    /_/
 #
 # used in _includes/comments.html
 
 disqus_shortname: kevanatkins
 
 
-#      _____                
+#      _____
 #     / ___/____ ___________
 #     \__ \/ __ `/ ___/ ___/
-#    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/ 
+#    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/
 #   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
-#                           
+#
 
 sass:
     sass_dir: _sass
     style: :compressed
 
 
-#       ___                __      __  _          
+#       ___                __      __  _
 #      /   |  ____  ____ _/ /_  __/ /_(_)_________
 #     / /| | / __ \/ __ `/ / / / / __/ / ___/ ___/
-#    / ___ |/ / / / /_/ / / /_/ / /_/ / /__(__  ) 
+#    / ___ |/ / / / /_/ / / /_/ / /_/ / /__(__  )
 #   /_/  |_/_/ /_/\__,_/_/\__, /\__/_/\___/____/      https://www.google.com/analytics/
-#                        /____/                   
+#                        /____/
 #
 # used in _includes/footer_scripts.html
 
 google_analytics_tracking_id: UA-48085427-1
 
-#     ____                     
-#    / __ \_________  ________ 
+#     ____
+#    / __ \_________  ________
 #   / /_/ / ___/ __ \/ ___/ _ \
 #  / ____/ /  / /_/ (__  )  __/
-# /_/   /_/   \____/____/\___/ 
-# 
+# /_/   /_/   \____/____/\___/
+#
 
 prose:
   ignore:
@@ -298,4 +298,3 @@ prose:
         field:
           element: "textarea"
           label: "teaser"
-
