@@ -1,0 +1,21 @@
+- title: About
+  url: "#about"
+
+- title: "Work"
+  url: "#work"
+
+- title: "Projects"
+  url: null
+
+# - title: Blog
+#   url: "#blog"
+#   dropdown:
+
+- title: "Events"
+  url: "#events"
+
+- title: "Search"
+  url: "#search"
+
+- title: "Contact"
+  url: "#contact"

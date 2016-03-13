@@ -1,7 +1,5 @@
-_site/*
-.DS_Store
-
-**/.sass-cache
-**/.sass-cache/*
-
-kevanatkins-website.csv
+_site
+.sass-cache
+.jekyll-metadata
+bower_components
+*.csv
