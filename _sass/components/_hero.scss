@@ -25,6 +25,17 @@
   @extend .hero;
   background-image: url("/assets/img/header1.gif");
 
+  .more {
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    .icon-down-open-big {
+      width: 100%;
+    }
+  }
+
   .site-logo {
     @extend .block;
     padding-bottom: 1430px;

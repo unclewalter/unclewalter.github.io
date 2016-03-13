@@ -1,21 +1,17 @@
-- title: About
+- title: "bio"
   url: "#about"
 
-- title: "Work"
+- title: "works"
   url: "#work"
 
-- title: "Projects"
+- title: "projects"
   url: null
 
-# - title: Blog
-#   url: "#blog"
-#   dropdown:
+- title: "blog"
+  url: "#blog"
 
-- title: "Events"
+- title: "events"
   url: "#events"
 
-- title: "Search"
-  url: "#search"
-
-- title: "Contact"
+- title: "contact"
   url: "#contact"
