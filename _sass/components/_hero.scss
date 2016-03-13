@@ -1,0 +1,49 @@
+.hero {
+  $large-screen: 50em !default;
+  align-items: baseline;
+  background-position: center bottom;;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #000;
+  display: block;
+  justify-content: center;
+  min-height: 100%;
+  padding-top: 9em;
+
+}
+
+.block {
+  min-width: 100%;
+  text-align: center;
+  color: #fff;
+  clear: both;
+  display: table;
+}
+
+.intro {
+  @extend .hero;
+  background-image: url("/assets/img/header1.gif");
+
+  .site-logo {
+    @extend .block;
+    padding-bottom: 1430px;
+  }
+
+  #about {
+    @extend .block;
+    padding-bottom: 430px;
+    .about-inner {
+      width: 100%;
+      max-width: 70em;
+      float: right;
+      padding: 2em;
+      background-color: #222;
+      p {
+        text-align: justify;
+        color: #fff;
+      }
+    }
+
+  }
+}

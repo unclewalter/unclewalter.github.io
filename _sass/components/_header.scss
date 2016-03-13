@@ -1,0 +1,43 @@
+header {
+  position: fixed;
+  z-index: 100;
+  line-height: 5em;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.82) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.82) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.82) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+  .button-group {
+    $large-screen: 50em !default;
+
+    input {
+      display: none;
+    }
+
+    label {
+      font-weight: normal;
+
+        float: left;
+        padding: 0 1.5em;
+    }
+
+    .button-group-item {
+      cursor: pointer;
+      display: inline-block;
+      width: 100%;
+      color: #fff;
+
+      @include media($large-screen) {
+        width: auto;
+      }
+    }
+
+    input:checked + .button-group-item {
+      background-color: #ff0;
+      text-decoration: underline;
+    }
+  }
+}
