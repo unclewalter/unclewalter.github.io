@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Monofett|Press+Start+2P|Six+Caps|Wire+One|Anonymous+Pro|Nova+Mono|Share+Tech+Mono|VT323|Open+Sans+Condensed:300|Yanone+Kaffeesatz|Orbitron|Changa+One);
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+p, a {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5em;
+}
+
+.intro {
+  h1 {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 3em;
+  }
+  h2 {
+    font-family: 'VT323', ;
+    line-height: 0.7em;
+    font-size: 2em;
+  }
+  .about h2 {
+    font-size: 2em;
+    transform: rotate(7deg);
+  }
+}

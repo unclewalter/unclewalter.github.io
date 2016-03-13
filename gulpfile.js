@@ -14,8 +14,21 @@ gulp.task('js-fef', function(){
         .pipe(gulp.dest('assets/js'));
 });
 
-gulp.task('watch', function () {
-   gulp.watch(['assets/js/**/*.js', 'gulpfile.js'], ['js-fef']);
+gulp.task('autoprefixer', function () {
+    var postcss      = require('gulp-postcss');
+    var sourcemaps   = require('gulp-sourcemaps');
+    var autoprefixer = require('autoprefixer');
+
+    return gulp.src('_site/assets/css/main.css')
+        .pipe(sourcemaps.init())
+        .pipe(postcss([ autoprefixer({ browsers: ['last 2 versions'] }) ]))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('_site/assets/css/'));
 });
 
-gulp.task('default', ['js-fef'], function(){});
+gulp.task('watch', function () {
+   gulp.watch(['assets/js/**/*.js', 'gulpfile.js'], ['js-fef']);
+   gulp.watch(['_site/assets/css/main.css'], ['autoprefixer']);
+});
+
+gulp.task('default', ['js-fef', 'autoprefixer'], function(){});
