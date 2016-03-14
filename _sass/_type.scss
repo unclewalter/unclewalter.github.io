@@ -21,8 +21,10 @@ p, a {
     line-height: 0.7em;
     font-size: 2em;
   }
-  .about h2 {
+  #about h2 {
     font-size: 2em;
-    transform: rotate(7deg);
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
   }
 }
