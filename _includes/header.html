@@ -10,7 +10,7 @@
 
 </header>
 
-<section class="intro">
+<section id="intro">
   <div class="site-logo">
     <h1>Kevan Atkins</h1>
 		<h2>Composer | Sound Artist</h2>
@@ -20,9 +20,11 @@
   <div id="about" data-menu-offset="-150">
 		<div class="about-inner">
 			<h2>Wait... So who the f_ are you?</h2>
-			<p>
-				<p>Mollit commodo occaecat magna dolore veniam veniam labore nulla veniam eu dolor occaecat velit et excepteur. Qui magna nostrud nisi nostrud ad elit quis officia et dolore pariatur. Officia elit laborum enim ex commodo fugiat dolore. Ipsum excepteur sunt ut officia do quis elit adipisicing nulla proident laborum nisi est amet aliquip. Anim qui elit occaecat laborum sunt cupidatat velit ipsum enim labore laborum occaecat veniam sunt. Consectetur est officia sunt cupidatat aliqua veniam sunt reprehenderit non ullamco aliquip ipsum fugiat veniam anim. Adipisicing nostrud excepteur magna enim culpa culpa in amet. Cupidatat consectetur ad irure elit eu esse duis laborum sint amet Lorem cupidatat adipisicing laboris ad sint.</p>
-			</p>
+			{% for page in site.pages %}
+				{% if page.title == "bio" %}
+					{{ page.content }}
+				{% endif %}
+			{% endfor %}
 		</div>
   </div>
 </section>

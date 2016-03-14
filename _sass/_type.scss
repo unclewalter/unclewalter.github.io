@@ -11,20 +11,17 @@ p, a {
   font-size: 1.5em;
 }
 
-.intro {
+h2 {
+  font-family: 'VT323', ;
+  line-height: 0.7em;
+  font-size: 2em;
+}
+
+#intro {
   h1 {
     font-family: 'Press Start 2P', monospace;
     font-size: 3em;
+    text-transform: uppercase;
   }
-  h2 {
-    font-family: 'VT323', ;
-    line-height: 0.7em;
-    font-size: 2em;
-  }
-  #about h2 {
-    font-size: 2em;
-    -ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-    transform: rotate(3deg);
-  }
+
 }

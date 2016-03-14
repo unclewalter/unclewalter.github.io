@@ -1,6 +1,98 @@
 body, html {
   height: 100%;
+  max-width: 100%;
+  // overflow-x: hidden;
   padding: 0;
   margin: 0;
   background-color: #000;
+}
+
+#intro {
+  @extend .hero;
+  background-image: url("/assets/img/header2.gif");
+
+  .more {
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    .icon-down-open-big {
+      width: 100%;
+    }
+  }
+
+  .site-logo {
+    @extend .block;
+    padding-bottom: 1430px;
+  }
+}
+
+#works-hero {
+    background-image: url("/assets/img/header_kevanparis.jpg");
+}
+#projects-hero {
+    background-image: url("/assets/img/header2.gif");
+}
+#blog-hero {
+    background-image: url("/assets/img/header_kevanparis.jpg");
+}
+#events-hero {
+    background-image: url("/assets/img/header2.gif");
+}
+#contact-hero {
+    background-image: url("/assets/img/header_kevanparis.jpg");
+}
+
+#about {
+  @extend .block;
+  margin-bottom: -4em;
+  .about-inner {
+    -ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
+  }
+  h2 {
+  font-size: 2em;
+  margin-bottom: 2em;
+  }
+  p {
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+  }
+}
+
+#works {
+  @extend .block;
+  padding-top: 2030px;
+  margin-bottom: -3em;
+  // -ms-transform: rotate(3deg); /* IE 9 */
+  // -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+  // transform: rotate(3deg);
+  h2 {
+  font-size: 2em;
+  margin-bottom: 2em;
+  }
+  p {
+    // -ms-transform: rotate(-3deg); /* IE 9 */
+    // -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    // transform: rotate(-3deg);
+  }
+}
+#projects {
+  @extend .block;
+  padding-top: 430px;
+}
+#blog  {
+  @extend .block;
+  padding-top: 430px;
+}
+#events {
+  @extend .block;
+  padding-top: 430px;
+}
+#contact {
+  @extend .block;
+  padding-top: 430px;
 }
