@@ -1,9 +1,9 @@
 <header>
-	<div class="button-group">
+	<div class="site-nav">
 		{% for link in site.data.navigation %}
 		  <label>
-		    <input type="radio" name="button-group" value="item">
-		    <a class="button-group-item" href="{{ link.url }}">{{ link.title }}</a>
+		    <input type="radio" name="site-nav" value="item">
+		    <a class="site-nav-item" href="{{ link.url }}">{{ link.title }}</a>
 		  </label>
 	 {% endfor %}
 </div>

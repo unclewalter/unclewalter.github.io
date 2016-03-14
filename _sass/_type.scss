@@ -11,10 +11,18 @@ p, a {
   font-size: 1.5em;
 }
 
+h2, h3, h4 {
+  font-family: 'VT323';
+}
+
 h2 {
-  font-family: 'VT323', ;
   line-height: 0.7em;
   font-size: 2em;
+}
+
+h3 {
+  font-size: 2em;
+  line-height: 1em;
 }
 
 #intro {

@@ -11,7 +11,7 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
   padding-bottom: 4em;
 
-  .button-group {
+  .site-nav {
     $large-screen: 50em !default;
 
 
@@ -26,7 +26,7 @@ header {
         padding: 0 1.5em;
     }
 
-    .button-group-item {
+    .site-nav-item {
       cursor: pointer;
       display: inline-block;
       width: 100%;
@@ -37,7 +37,7 @@ header {
       }
     }
 
-    input:checked + .button-group-item {
+    input:checked + .site-nav-item {
       background-color: #ff0;
       text-decoration: underline;
     }

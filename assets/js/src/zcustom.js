@@ -1,4 +1,4 @@
-var s = skrollr.init();
+var s = skrollr.init({forceHeight: false});
 skrollr.menu.init(s, {
     animate: true,
     easing: 'swing',
