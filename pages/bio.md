@@ -4,10 +4,8 @@ title: bio
 permalink: /bio/
 ---
 
-Exercitation do elit eu velit voluptate veniam deserunt nostrud adipisicing labore quis sunt id anim laborum. Sint eiusmod sint fugiat quis nostrud officia enim. Tempor fugiat duis consequat quis duis cillum occaecat aute dolor enim culpa elit culpa adipisicing quis enim.
+Kevan Atkins (1992, Melbourne, Australia) is a composer, sound artist and
+audio engineer who works in a variety of media. By focusing on techniques and
+materials, Atkins considers composing a craft which is executed using clear formal rules and which should always refer to social reality. His works demonstrate how life extends beyond its own subjective limits. It challenges the binaries we continually reconstruct between Subject and Other, between our own ‘cannibal’ and ‘civilized’ selves.
 
-Amet dolor dolore consectetur ullamco est velit pariatur id eu tempor sunt esse aliquip ipsum. Ad pariatur est aliqua excepteur fugiat fugiat quis id nostrud anim pariatur veniam enim cillum do deserunt excepteur. Amet ex non eu magna adipisicing est laboris do consequat dolore ipsum duis occaecat cupidatat qui ex. Reprehenderit eiusmod est ut laboris pariatur eiusmod do nostrud. Sunt laboris qui mollit ullamco in adipisicing ullamco dolor cillum. Eu non occaecat velit in et ullamco cupidatat qui.
-
-Laboris laborum officia nostrud et ullamco consequat ullamco pariatur ut proident ut dolor. Eu pariatur velit culpa eiusmod ad est occaecat. Consequat nisi laborum ea esse duis incididunt irure. Laborum est sunt magna ad ullamco consequat eu excepteur commodo. Dolor id minim qui non sint ipsum nostrud nisi ad minim deserunt excepteur voluptate in.
-
-Non Lorem in consectetur laborum nulla irure deserunt. Nostrud irure et excepteur laborum anim irure commodo do esse sint officia veniam proident. Cupidatat excepteur aliqua duis veniam esse amet voluptate. Et voluptate deserunt eiusmod esse incididunt cupidatat cupidatat sint esse voluptate id exercitation minim dolore commodo.sdl kjasdflk jasdf
+His works are given improper functions: significations are inversed and form and content merge. Shapes are dissociated from their original meaning, by which the system in which they normally function is exposed. Initially unambiguous meanings are shattered and disseminate endlessly.
