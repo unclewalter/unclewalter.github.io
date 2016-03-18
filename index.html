@@ -8,8 +8,13 @@ layout: default
     <div id="{{navitem.title | downcase}}" data-menu-offset="-150">
       <div class="{{navitem.title | downcase}}-inner">
         <h2>{{ navitem.title }}</h2>
+        {% if navitem.title == 'works' %}
+          {% include works.html %}
+        {% endif %}
         {% for page in site.pages %}
-          {% if page.title == navitem.title %}
+          {% if navitem.title == 'works' %}
+
+          {% elsif page.title == navitem.title %}
             {{ page.content | markdownify }}
           {% endif %}
         {% endfor %}

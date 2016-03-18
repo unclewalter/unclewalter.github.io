@@ -15,6 +15,17 @@ imgurl: "http://kevanatkins.com/images"
 # Build settings
 markdown: kramdown
 
+collections:
+  works:
+    output: true
+    permalink: /work/:title/
+    date:
+    subheadline:
+    title:
+    role:
+    published:
+    teaser:
+
 gems:
   - jekyll-assets
 
