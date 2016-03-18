@@ -8,7 +8,7 @@ body, html {
 
 #intro {
   @extend .hero;
-  background-image: url("/assets/img/header2.gif");
+  background-image: url("/assets/img/header3.gif");
 
   .more {
     font-size: 6em;
@@ -31,13 +31,13 @@ body, html {
     background-image: url("/assets/img/noise.gif");
 }
 #projects-hero {
-    background-image: url("/assets/img/noise.gif");
+    background-image: url("/assets/img/noise-inv.gif");
 }
 #blog-hero {
     background-image: url("/assets/img/noise.gif");
 }
 #events-hero {
-    background-image: url("/assets/img/header2.gif");
+    background-image: url("/assets/img/header3.gif");
 }
 #contact-hero {
     background-image: url("/assets/img/header_kevanparis.jpg");
