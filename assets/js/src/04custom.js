@@ -3,6 +3,7 @@ $(window).load(function() {
 });
 
 $(document).ready(function(){
+  // Headers
   $("h2").fitText(1.3, { minFontSize: '40px' });
   $(".site-logo h2").fitText(1.8, { minFontSize: '30px' });
   $(".site-logo h1").fitText(1.8, { minFontSize: '40px' });
@@ -20,6 +21,7 @@ $(document).ready(function(){
   });
 });
 
+// Navigation configuration
 AA_CONFIG = {
   animationLength:  2800,
   easingFunction:   'easeInOutQuad',

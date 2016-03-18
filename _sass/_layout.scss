@@ -43,11 +43,11 @@ body, html {
     background-image: url("/assets/img/header_kevanparis.jpg");
 }
 
-#about {
+#bio {
   @extend .block;
   margin-bottom: -5em;
 
-  .about-inner {
+  .bio-inner {
     transform: skewY(-1deg);
 
   }
