@@ -51,10 +51,6 @@ body, html {
     transform: skewY(-1deg);
 
   }
-  h2 {
-  font-size: 2em;
-  margin-bottom: 1em;
-  }
   p {
     transform: skewY(1deg);
   }
@@ -92,8 +88,6 @@ body, html {
   }
   h2 {
     transform: rotate(-1.5deg);
-    font-size: 2em;
-    margin-bottom: 1em;
     color: #000;
   }
   p {
@@ -106,6 +100,15 @@ body, html {
 #projects {
   @extend .block;
   margin-top: 1430px;
+  .projects-inner {
+    background-color: #bfc;
+    h2 {
+      color: #000;
+    }
+    p {
+      color: #000;
+    }
+  }
 }
 #blog  {
   @extend .block;
@@ -118,5 +121,21 @@ body, html {
 #contact {
   @extend .block;
   margin-top: 1430px;
-  // margin-bottom: 1430px;
+  text-align: center;
+  form {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    textarea {
+      height: 240px;
+    }
+    [type="submit"] {
+      width: 100%;
+      max-width: 250px;
+      background-color: #000;
+      font-family: 'VT323';
+      font-size: 2em;
+      padding: 0.2em;
+    }
+  }
 }

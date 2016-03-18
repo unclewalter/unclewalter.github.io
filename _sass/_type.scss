@@ -11,6 +11,12 @@ p, a {
   font-size: 1.5em;
 }
 
+$font-stack-system: 'Yanone Kaffeesatz', sans-serif;
+
+.site-nav label {
+  font-size: 1.5em;
+}
+
 h2, h3, h4 {
   font-family: 'VT323';
 }
@@ -19,6 +25,11 @@ h2 {
   line-height: 0.7em;
   font-size: 2em;
   margin: 0;
+}
+
+.block h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 h3 {
