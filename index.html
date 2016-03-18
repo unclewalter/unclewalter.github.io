@@ -2,15 +2,15 @@
 layout: default
 ---
 
-{% for page in site.data.navigation %}
-  {% if page.title != "bio" %}
-  <section id="{{page.title | downcase}}-hero" class="hero">
-    <div id="{{page.title | downcase}}" data-menu-offset="-150">
-      <div class="{{page.title | downcase}}-inner">
-        <h2>{{page.title}}</h2>
-        {% for pagecontent in site.pages %}
-          {% if pagecontent.title == page.title %}
-            {{pagecontent.content}}
+{% for navitem in site.data.navigation %}
+  {% if navitem.title != "bio" %}
+  <section id="{{navitem.title | downcase}}-hero" class="hero">
+    <div id="{{navitem.title | downcase}}" data-menu-offset="-150">
+      <div class="{{navitem.title | downcase}}-inner">
+        <h2>{{ navitem.title }}</h2>
+        {% for page in site.pages %}
+          {% if page.title == navitem.title %}
+            {{ page.content | markdownify }}
           {% endif %}
         {% endfor %}
       </div>
