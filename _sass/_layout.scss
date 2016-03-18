@@ -47,8 +47,6 @@ body, html {
   @extend .block;
   margin-bottom: -5em;
   .about-inner {
-    -ms-transform: rotate(-3deg); /* IE 9 */
-    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
     transform: rotate(-3deg);
   }
   h2 {
@@ -56,8 +54,6 @@ body, html {
   margin-bottom: 2em;
   }
   p {
-    -ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
     transform: rotate(3deg);
   }
 }
@@ -74,8 +70,6 @@ body, html {
     margin-bottom: -3em;
   }
   h2 {
-    -ms-transform: rotate(4deg); /* IE 9 */
-    -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
     transform: rotate(4deg);
     font-size: 2em;
     margin-bottom: 2em;
