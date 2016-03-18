@@ -45,7 +45,7 @@ body, html {
 
 #about {
   @extend .block;
-  margin-bottom: -4em;
+  margin-bottom: -5em;
   .about-inner {
     -ms-transform: rotate(-3deg); /* IE 9 */
     -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
@@ -65,21 +65,24 @@ body, html {
 #works {
   @extend .block;
   margin-top: 2030px;
-  margin-bottom: -3em;
+  // margin-bottom: -3em;
   padding: 0;
   .works-inner {
     background-color: #fff;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    margin-bottom: -3em;
   }
   h2 {
+    -ms-transform: rotate(4deg); /* IE 9 */
+    -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
+    transform: rotate(4deg);
     font-size: 2em;
     margin-bottom: 2em;
     color: #000;
   }
   p {
     color: #444;
-    // -ms-transform: rotate(-3deg); /* IE 9 */
-    // -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
-    // transform: rotate(-3deg);
   }
 }
 #projects {
