@@ -1,6 +1,4 @@
 ---
-layout: page
-show_meta: false
-title: "Projects"
+title: "projects"
 ---
 Under construction

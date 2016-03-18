@@ -1,7 +1,5 @@
 ---
-layout: page
 title: bio
-permalink: /bio/
 ---
 
 Kevan Atkins (1992, Melbourne, Australia) is a composer, sound artist and

@@ -1,7 +1,4 @@
 ---
-layout: page
-title: "Work"
-permalink: "/work/"
+title: "works"
 ---
-
-I done a few things... 
+I done a few things...

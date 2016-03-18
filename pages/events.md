@@ -1,11 +1,5 @@
 ---
-layout: page
-show_meta: false
-title: "Events"
-subheadline: null
-header:
-  image_fullwidth: "header_kevanparis2.jpg"
-permalink: "/events/"
+title: "events"
 ---
 
 <div class="row">
