@@ -4,7 +4,7 @@
   $medium-screen: em(640) !default;
   $large-screen: em(860) !default;
   $footer-background: #000;
-  $footer-color: white;
+  $footer-color: #fff;
   $footer-link-color: transparentize($footer-color, 0.6);
   $footer-disclaimer-color: transparentize($footer-color, 0.6);
 
@@ -30,33 +30,15 @@
     margin-bottom: $base-spacing;
   }
 
-  ul {
-    flex-basis: 13em;
-    flex-shrink: 0;
-    margin-bottom: $base-spacing * 2;
-    padding: 0;
-  }
-
-  li {
-    line-height: 1.5em;
-    list-style: none;
-    text-align: center;
-  }
-
-  li a {
+  a {
     color: $footer-link-color;
     text-decoration: none;
-
+    margin: 0 0.1em;
+    font-size: 4em;
     &:focus,
     &:hover {
       color: transparentize($footer-color, 0);
     }
-  }
-
-  li h3 {
-    color: $footer-color;
-    font-size: 1em;
-    margin-bottom: 0.4em;
   }
 
   hr {
