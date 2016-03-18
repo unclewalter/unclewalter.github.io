@@ -2,6 +2,4 @@
 title: "events"
 ---
 
-<div class="row">
-	<ul id="eventlist"></ul>
-</div>
+There are no upcoming events.
