@@ -2,8 +2,7 @@
 	<div class="site-nav">
 		{% for link in site.data.navigation %}
 		  <label>
-		    <input type="radio" name="site-nav" value="item">
-		    <a class="site-nav-item" href="{{ link.url }}">{{ link.title }}</a>
+		    <a class="site-nav-item" href="#{{ link.url }}">{{ link.title }}</a>
 		  </label>
 	 {% endfor %}
 </div>

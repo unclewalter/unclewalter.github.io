@@ -87,7 +87,6 @@ body, html {
     padding-top: 0;
   }
   h2 {
-    transform: rotate(-1.5deg);
     color: #000;
   }
   p {
@@ -101,7 +100,20 @@ body, html {
   @extend .block;
   margin-top: 2430px;
   .projects-inner {
-    background-color: #efe;
+    background-color: #000;
+    h2 {
+      color: #fff;
+    }
+    p {
+      color: #fff;
+    }
+  }
+}
+#blog  {
+  @extend .block;
+  margin-top: 2430px;
+  .blog-inner {
+    background-color: #eee;
     h2 {
       color: #000;
     }
@@ -109,10 +121,6 @@ body, html {
       color: #000;
     }
   }
-}
-#blog  {
-  @extend .block;
-  margin-top: 2430px;
 }
 #events {
   @extend .block;

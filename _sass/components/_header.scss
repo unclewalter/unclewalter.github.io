@@ -32,10 +32,5 @@ header {
         width: auto;
       }
     }
-
-    input:checked + .site-nav-item {
-      background-color: #ff0;
-      text-decoration: underline;
-    }
   }
 }

@@ -19,3 +19,9 @@ $(document).ready(function(){
   	}
   });
 });
+
+AA_CONFIG = {
+  animationLength:  2800,
+  easingFunction:   'easeInOutQuad',
+  scrollOffset:     150
+};
