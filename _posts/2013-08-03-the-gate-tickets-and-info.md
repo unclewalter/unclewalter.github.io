@@ -1,5 +1,4 @@
 ---
-layout: page
 sidebar: left
 subheadline: Tickets and info
 title:  "The Gate"

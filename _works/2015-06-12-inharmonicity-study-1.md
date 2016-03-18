@@ -1,5 +1,4 @@
 ---
-layout: page
 date: "June 2015"
 title: "Inharmonicity Study 1"
 role: "Composer"
@@ -7,7 +6,7 @@ type: "electronic"
 teaser: "it began as an ongoing study into physical objects and their imperfections when they produce sound. However, naturally as a part of the process of exploration, I did not entirely adhere to that brief and the piece has expanded into exploring frontier between synthetic sounding sounds and natural sounding sounds as well as indeterminate processes."
 frontpage: true
 
-categories: 
+categories:
   - electronic
 
 header:

@@ -1,5 +1,4 @@
 ---
-layout: page
 sidebar: left
 published: true
 breadcrumb: false
@@ -10,7 +9,7 @@ title: Sirius Chronometer
 Hey all, so following the [Bendigo International Festival of Exploratory Music](http://www.bifem.com.au/) (BIFEM) this year, I have updated my chronometer software for a performance of Olga Neuwirth's work _Maudite Soit La Guerre_. It has now hit the v1.0 milestone (actually 1.1.0 after a few changes), which I'm happy about and I'm proud to make it publically available now it is in a more user-friendly package.
 
 ## Background
-For those unfamiliar with this. Sirius Chronometer is a system I developed last year for the Australian premier of Karlheinz Stockhausen's _Sirius_ at BIFEM 2014 with Nicholas Isherwood, Tristram Williams, Tiffany DuMouchelle, Richard Haynes and Myles Mumford. The purpose was to allow the performers to stay in sync and keep track of their cues alongside the 8 channel diffusion using their mobile devices on the same wi-fi network as computer. 
+For those unfamiliar with this. Sirius Chronometer is a system I developed last year for the Australian premier of Karlheinz Stockhausen's _Sirius_ at BIFEM 2014 with Nicholas Isherwood, Tristram Williams, Tiffany DuMouchelle, Richard Haynes and Myles Mumford. The purpose was to allow the performers to stay in sync and keep track of their cues alongside the 8 channel diffusion using their mobile devices on the same wi-fi network as computer.
 
 The original iteration of this system was a [Node.js](https://nodejs.org/en/) script that was sent OSC messages from a MaxMSP patch indicating the current playback position and cues, and then serving a web page on any device with a HTML5 web browser which displays the current time and cues synchronised with the patch through a TCP socket connected to Node server running on the computer. The advantages this system has over something like TouchOSC, which superficially can do the same thing, are:
 
@@ -34,7 +33,7 @@ I also want to give the user more options for configuration, such as setting the
 
 It could be worth also providing some visual feedback on the devices in the event that there is a failure.
 
-On thing I am considering is porting it over to something like OpenFrameworks, which is an awesome C++ "creative coding" toolkit for writing cross-platform apps. One advantage there is I can greatly reduce the footprint of the app, increase the performance and be able to access a few lower level features that might help me improve sync accuracy. It would also make implementing MTC sync a bit easier as I can use RtMidi, which is awesomesauce. 
+On thing I am considering is porting it over to something like OpenFrameworks, which is an awesome C++ "creative coding" toolkit for writing cross-platform apps. One advantage there is I can greatly reduce the footprint of the app, increase the performance and be able to access a few lower level features that might help me improve sync accuracy. It would also make implementing MTC sync a bit easier as I can use RtMidi, which is awesomesauce.
 
 ## Downloads
 [OS X 32-bit](https://github.com/unclewalter/Sirius-Chronometer/releases/download/v1.1.0/sirius-chronometer-osx32.zip)
@@ -46,4 +45,4 @@ On thing I am considering is porting it over to something like OpenFrameworks, w
 ## Source Code, Documentation & Example MaxMSP patch
 [Fork yeah! GitHub!](https://github.com/unclewalter/Sirius-Chronometer/)
 
-Improvements and suggestions are always welcome. 
+Improvements and suggestions are always welcome.

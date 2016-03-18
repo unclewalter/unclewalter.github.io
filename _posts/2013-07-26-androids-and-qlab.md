@@ -1,11 +1,10 @@
 ---
-layout: page
 sidebar: left
 subheadline: null
 title: Androids and QLab
 teaser: null
 breadcrumb: false
-tags: 
+tags:
   - theatre
 published: true
 ---

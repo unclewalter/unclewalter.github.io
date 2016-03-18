@@ -1,12 +1,11 @@
 ---
-layout: page
 sidebar: left
 title:  "Nine Rehearsals - Week 1"
 teaser: "The first of the really exciting projects I'm working on this year is a play called 'Nine' by Jane Shepard directed by May Parley. A two hander originally written for two women which explores the human will to live through it's two characters, in this case being a man (portrayed by me and a woman (Asleen Mauthoor). We're performing this in a really cool space; the storage room in Union Hall at La Trobe University. It's a fantastic space when embraced for what it is. On Thursday, we had a meeting with Tom Willis, the lighting designer who alongside May had some really strong concepts to underpin the design of the show and was generally quite positive about the direction we were going in."
 breadcrumb: true
 tags:
     - theatre
- 
+
 ---
 
 The first of the really exciting projects I'm working on this year is a

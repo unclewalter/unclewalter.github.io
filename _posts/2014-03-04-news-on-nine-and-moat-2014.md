@@ -1,5 +1,4 @@
 ---
-layout: page
 sidebar: left
 title:  "News on Nine and Moat 2014"
 teaser: "So today I have some good news and some bad news. The good news is that

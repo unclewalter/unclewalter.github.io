@@ -1,5 +1,4 @@
 ---
-layout: page
 date: "Novemember 2014"
 title: "Legionnaire"
 role: "Composer"
@@ -7,7 +6,7 @@ type: "instrumental"
 teaser: "For solo contrabass. ‘Légionnaires, vous êtes faits pour mourir, je vous envoie là où on meurt’, which translates to: 'Legionnaires, you are made for dying, I will send you where you can die'; the infamous words of French Foreign Legion general, Oscar de Négrier as he addressed his troops in 1894. The character of the legionnaire has become synonymous with extreme resilience in the face the most unforgiving and cruel circumstances. Among the ranks, De Négrier’s words are not considered fatalistic but are issued as a challenge to the legionnaire. The piece explores both the character of the legionnaire and the cruel conditions of war by drawing parallels with not only through the sound of the instrument but also the performer themselves."
 frontpage: true
 
-categories: 
+categories:
   - instrumental
 
 header:
@@ -15,4 +14,4 @@ header:
 ---
 For solo contrabass. ‘*Légionnaires, vous êtes faits pour mourir, je vous envoie là où on meurt*’, which translates to: 'Legionnaires, you are made for dying, I will send you where you can die'; the infamous words of French Foreign Legion general, Oscar de Négrier as he addressed his troops in 1894. The character of the legionnaire has become synonymous with extreme resilience in the face the most unforgiving and cruel circumstances. Among the ranks, De Négrier’s words are not considered fatalistic but are issued as a challenge to the legionnaire. The piece explores both the character of the legionnaire and the cruel conditions of war by drawing parallels with not only through the sound of the instrument but also the performer themselves.
 
-Legionnaire is a glimpse into the gruesome demise of a soldier as he loses his limbs one by one in battle, which is portrayed through the loss of strings on the instrument as the performer detunes each string completely throughout the piece until ultimately one remains for the final section. But in true legion spirit, both the solider and the performer must fight on, no matter how hard it becomes, right to the end. A number of techniques are employed to evoke the front. Some are more direct, such as the use of snap pizzicato for gunshots and bow overpressure for the roar of fighter jets overhead. While some are more metaphorical, such as the quiet molto sul. ponticello tremolo and the use of temporal silence to evoke the stillness between the episodes of unrelenting brutality. 
+Legionnaire is a glimpse into the gruesome demise of a soldier as he loses his limbs one by one in battle, which is portrayed through the loss of strings on the instrument as the performer detunes each string completely throughout the piece until ultimately one remains for the final section. But in true legion spirit, both the solider and the performer must fight on, no matter how hard it becomes, right to the end. A number of techniques are employed to evoke the front. Some are more direct, such as the use of snap pizzicato for gunshots and bow overpressure for the roar of fighter jets overhead. While some are more metaphorical, such as the quiet molto sul. ponticello tremolo and the use of temporal silence to evoke the stillness between the episodes of unrelenting brutality.

@@ -1,5 +1,4 @@
 ---
-layout: page
 sidebar: left
 title:  "Nine Rehearsals - Week 2"
 teaser: "Only two weeks in things are moving so quickly already. With only one
