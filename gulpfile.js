@@ -18,4 +18,4 @@ gulp.task('watch', function () {
    gulp.watch(['assets/js/**/*.js', 'gulpfile.js'], ['js-fef']);
 });
 
-gulp.task('default', ['js-fef', 'autoprefixer'], function(){});
+gulp.task('default', ['js-fef'], function(){});
