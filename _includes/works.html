@@ -1,6 +1,12 @@
 {% for work in site.works %}
 <article>
-  <a onclick=""><h3>{{ work.title }}</h3></a>
-
+  <a data-featherlight="#{{ work.title | slugify }}"><h3>{{ work.title }}</h3></a>
 </article>
+{% endfor %}
+
+
+{% for work in site.works %}
+<div class="featherlight" id="{{ work.title | slugify }}">
+  {{ work.content }}
+</div>
 {% endfor %}
