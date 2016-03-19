@@ -9,14 +9,15 @@ $(document).ready(function(){
   $(".site-logo h1").fitText(1.8, { minFontSize: '40px' });
 
   // Works view
-  $(".filter").click(function(){
+  $(".work-categories .filter").click(function(){
   	var filter = $(this).attr("category-filter");
+    console.log(filter);
   	if (filter == "all") {
-  		$('.works-item').show(1000);
+  		$('.works-item').fadeTo('slow', 1);
   	}
   	else {
-  		$('works-item, .category-'+filter).show(1000);
-      $(".works-item:not('.category-"+filter+"')").hide(1000);
+  		$('works-item, .category-'+filter).fadeTo('slow', 1);
+      $(".works-item:not('.category-"+filter+"')").fadeTo('slow', 0);
   	}
   });
 });

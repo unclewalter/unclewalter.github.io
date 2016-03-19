@@ -8,6 +8,7 @@ frontpage: true
 
 categories:
   - instrumental
+  - solo
 
 header:
   image_fullwidth: "placeholder.gif"
