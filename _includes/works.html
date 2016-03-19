@@ -4,9 +4,10 @@
 </article>
 {% endfor %}
 
-
-{% for work in site.works %}
-<div class="featherlight" id="{{ work.title | slugify }}">
-  {{ work.content }}
+<div class="featherlight">
+  {% for work in site.works %}
+  <div id="{{ work.title | slugify }}">
+    {{ work.content }}
+  </div>
+  {% endfor %}  
 </div>
-{% endfor %}
