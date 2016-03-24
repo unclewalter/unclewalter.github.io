@@ -120,16 +120,44 @@ body, html {
 #projects {
   @extend .block;
   margin-top: 2430px;
-  .projects-inner {
-    background-color: #000;
-    h2 {
-      color: #fff;
-    }
-    p {
-      color: #fff;
+  h2 {
+    margin-bottom: 0.3em;
+  }
+  span.projects-item {
+    background-color: #fff;
+    padding: 0.8em;
+    display: inline-block;
+    transform: skewY(1.5deg);
+    margin: 0.7em;
+    margin-bottom: 2em;
+    h3, a {
+      transform: rotate(0);
+      margin: 0;
+      padding-bottom: 0.1em;
+      color: #000;
+      font-size: 1.3em;
+      border-bottom: 4px solid #fff;
+      :hover {
+        border-bottom: 4px solid #000;
+      }
     }
   }
+  margin-top: 2430px;
+  padding: 0;
+  .projects-inner {
+    background-color: #000;
+    transform: skewY(-1.5deg);
+    transform-origin: 100%;
+    margin-bottom: -3em;
+    padding-top: 0;
+
+  }
+  h2 {
+    color: #fff;
+  }
 }
+
+
 #blog  {
   @extend .block;
   margin-top: 2430px;

@@ -26,16 +26,15 @@ layout: default
     <div id="{{navitem.title | downcase}}" class="section-anchor" data-menu-offset="-150">
       <div class="{{navitem.title | downcase}}-inner">
         <h2 class="section-heading">{{ navitem.title }}</h2>
-        {% if navitem.title == 'works' %}
-          {% include works.html %}
+        {% if navitem.include %}
+          {% include {{navitem.include}} %}
+        {% else %}
+          {% for page in site.pages %}
+            {% if page.title == navitem.title %}
+              {{ page.content | markdownify }}
+            {% endif %}
+          {% endfor %}
         {% endif %}
-        {% for page in site.pages %}
-          {% if navitem.title == 'works' %}
-
-          {% elsif page.title == navitem.title %}
-            {{ page.content | markdownify }}
-          {% endif %}
-        {% endfor %}
       </div>
     </div>
   </section>

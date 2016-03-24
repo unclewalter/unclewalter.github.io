@@ -3,9 +3,11 @@
 
 - title: "works"
   url: "#works"
+  include: "works.html"
 
 - title: "projects"
   url: "#projects"
+  include: "projects.html"
 
 - title: "events"
   url: "#events"
