@@ -20,6 +20,9 @@ header {
       font-weight: normal;
       float: left;
       padding: 0 1.5em;
+      .active {
+        text-decoration: underline;
+      }
     }
 
     .site-nav-item {
