@@ -2,7 +2,6 @@
 date: "Novemember 2014"
 title: "Legionnaire"
 role: "Composer"
-type: "instrumental"
 teaser: "For solo contrabass. ‘Légionnaires, vous êtes faits pour mourir, je vous envoie là où on meurt’, which translates to: 'Legionnaires, you are made for dying, I will send you where you can die'; the infamous words of French Foreign Legion general, Oscar de Négrier as he addressed his troops in 1894. The character of the legionnaire has become synonymous with extreme resilience in the face the most unforgiving and cruel circumstances. Among the ranks, De Négrier’s words are not considered fatalistic but are issued as a challenge to the legionnaire. The piece explores both the character of the legionnaire and the cruel conditions of war by drawing parallels with not only through the sound of the instrument but also the performer themselves."
 frontpage: true
 

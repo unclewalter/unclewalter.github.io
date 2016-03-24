@@ -2,16 +2,11 @@
 date: "June 2014"
 title: "Iterations"
 role: "Composer"
-type: "electronic"
 teaser: "The piece explores the idea of recursion by taking a recording of a sound, performing with it, recording that performance in the space and then performing with that recording. At the centre of the piece is a MaxMSP patch which takes the sound, chops it into smaller slices that can be played back individually and treats them with formant filters. Those slices can in-turn be chopped and manipulated as well. All of these actions are performed according to directions given by the performance score."
-frontpage: true
 
 categories:
   - electronic
   - electroacoustic
-
-header:
-  image_fullwidth: "works/iterations.jpg"
 ---
 The piece explores the idea of recursion by taking a recording of a sound, performing with it, recording that performance in the space and then performing with that recording. At the centre of the piece is a MaxMSP patch which takes the sound, chops it into smaller slices that can be played back individually and treats them with formant filters. Those slices can in-turn be chopped and manipulated as well. All of these actions are performed according to directions given by the performance score.
 
