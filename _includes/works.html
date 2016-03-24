@@ -1,8 +1,8 @@
 <div class="work-categories">
   <div class="inner">
-    <a href="javascript:void()" class="filter" category-filter="all">show all</a>
+    <a href="#" class="filter" category-filter="all">show all</a>
     {% for category in site.data.categories %}
-    <a href="javascript:void()" class="filter" category-filter="{{ category | slugify }}">{{ category }}</a>
+    <a href="#" class="filter" category-filter="{{ category | slugify }}">{{ category }}</a>
     {% endfor %}
   </div>
 </div>

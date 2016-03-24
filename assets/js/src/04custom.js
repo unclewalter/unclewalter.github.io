@@ -11,7 +11,6 @@ $(document).ready(function(){
   // Works view
   $(".work-categories .filter").click(function(){
   	var filter = $(this).attr("category-filter");
-    console.log(filter);
   	if (filter == "all") {
   		$('.works-item').fadeTo('slow', 1);
   	}
@@ -19,6 +18,7 @@ $(document).ready(function(){
   		$('works-item, .category-'+filter).fadeTo('slow', 1);
       $(".works-item:not('.category-"+filter+"')").fadeTo('slow', 0);
   	}
+    return false;
   });
 
   var md = new MobileDetect(window.navigator.userAgent);
