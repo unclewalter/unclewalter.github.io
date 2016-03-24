@@ -20,6 +20,14 @@ $(document).ready(function(){
       $(".works-item:not('.category-"+filter+"')").fadeTo('slow', 0);
   	}
   });
+
+  var md = new MobileDetect(window.navigator.userAgent);
+
+  if (md.is('iOS')) {
+    $(".hero").css('background', '#000 url("/assets/img/noise-flat.gif")');
+    $(".block").css('margin-top', '200px');
+    $(".block").css('margin-bottom', '200px');
+  }
 });
 
 // Navigation configuration
