@@ -1,6 +1,5 @@
 header {
   position: fixed;
-  padding-top: 1.5em;
   z-index: 100;
   justify-content: center;
   display: flex;
@@ -17,11 +16,18 @@ header {
     }
 
     label {
+      -moz-transition: all .2s ease-in;
+      -o-transition: all .2s ease-in;
+      -webkit-transition: all .2s ease-in;
+      transition: all .2s ease-in;
       font-weight: normal;
       float: left;
-      padding: 0 1.5em;
-      .active {
-        text-decoration: underline;
+      padding: 0.4em 1.5em 0.2em 1.5em;
+    }
+    label.active {
+      background-color: #fff;
+      a {
+        color: #000;
       }
     }
 
