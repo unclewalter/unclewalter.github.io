@@ -16,6 +16,8 @@
 <div class="featherlight">
   {% for work in site.works %}
   <article id="{{ work.title | slugify }}">
+    <h2>{{ work.title }}</h2>
+    <span class="work-head-details">{{work.role}}{% if work.client %} | {% if work.client_link %}<a href="{{ work.client_link }}">{{work.client}}</a>{% else %}{{work.client}}{% endif %}{% endif %}</span>
     {{ work.content }}
   </article>
   {% endfor %}

@@ -8,17 +8,44 @@ p, h1, h2, h3, h4, h5, h6 {
   p, h1, h2, h3, h4, h5, h6, a {
     color: #000;
   }
+  a {
+    font-size: 1em;
+  }
+  ol, ul {
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.3em;
+    margin-left: 1.5em;
+    text-indent: .5em;
+    margin-bottom: 0.7em;
+  }
+  ol {
+    list-style: decimal;
+  }
+  ul {
+  }
+  span.work-head-details {
+    margin-left: 0.4em;
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5em;
+    color: #aaa;
+    a {
+      color: #aaa;
+    }
+  }
   a:hover {
     text-decoration: underline;
   }
 }
 
 p, a {
-  font-family: sans-serif;
   text-decoration: none;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.5em;
 }
+
+
 
 $font-stack-system: 'Yanone Kaffeesatz', sans-serif;
 
