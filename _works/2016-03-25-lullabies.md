@@ -1,6 +1,7 @@
 ---
 title: "Lullabies"
 role: "Composer/Producer"
+hide: true
 categories:
   - electronic
   - acousmatic
