@@ -5,13 +5,14 @@ categories:
   - electronic
   - acousmatic
   - electroacoustic
+  - instrumental
 ---
 
 **Duration:** 2h49'53"
 
 Lullabies is a series fixed media works that I am releasing as an album. The project started from a generative ambient piece which I put together to help myself get to sleep one night. This series of works explores my insomnia through different lenses. Initially the music served as a treatment, but then it grew into a reflection on the experience and the kinds of things that would keep me awake.
 
-To be released April 2016
+To be released April 2016.
 
 ### Program notes
 

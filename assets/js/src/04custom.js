@@ -3,9 +3,10 @@ $(function() {
     $('.page-content').fadeTo('slow', 1);
   });
 
+
   $(document).ready(function() {
     // Headers
-    $("h2").fitText(1.3, {
+    $("h2.section-heading").fitText(1.3, {
       minFontSize: '40px'
     });
     $(".site-logo h2").fitText(1.8, {
@@ -46,6 +47,14 @@ $(function() {
       $('.site-nav label').css('font-size', '1em');
       $('.site-nav label').css('padding', '0.5em');
     }
+
+    $.featherlight.defaults.beforeOpen = function(event) {
+      $('.featherlight iframe').prop("src", function(){
+        // Set their src attribute to the value of data-src
+        return $(this).attr("data-src");
+      });
+    }
+
   });
 
   // Navigation

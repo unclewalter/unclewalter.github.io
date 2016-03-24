@@ -76,6 +76,12 @@
   .featherlight-iframe .featherlight-content {
     border-bottom: 0;
     padding: 0;
+    p, span, h1, h2, h3, h4, h5 {
+      margin: 1em;
+    }
+    h1 {
+
+    }
   }
 
   .featherlight iframe {
