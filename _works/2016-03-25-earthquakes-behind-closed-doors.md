@@ -4,6 +4,7 @@ role: "Composer/Performer"
 categories:
   - electroacoustic
   - instrumental
+  - solo
 ---
 **Duration:** 12'00"
 

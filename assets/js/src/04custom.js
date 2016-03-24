@@ -54,6 +54,7 @@ $(function() {
         return $(this).attr("data-src");
       });
     }
+    $.featherlight.defaults.persist = true;
 
   });
 
