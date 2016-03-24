@@ -41,26 +41,31 @@ $(function() {
   // Navigation
   var currentHash = "##intro";
   $(document).scroll(_.throttle(function() {
-    $('.section-container').each(function() {
-      var top = window.pageYOffset + ($(window).height()*0.3);
+    $('.section-anchor').each(function() {
+      var top = window.pageYOffset + ($(window).height()*0.5);
       var distance = top - $(this).offset().top;
       var hash = $(this).attr('id');
-      if (distance < 100 && distance > -100 && currentHash != hash) {
+      var padding = $(window).height()*0.5;
+      if (distance < (padding)
+          && distance > -(padding)
+          && currentHash != hash) {
+
+        var navhash = "##" + hash;
+        $('.site-nav label').removeClass("active");
+        $('.site-nav a[href="'+navhash+'"]').parent().addClass("active");
         if (history.pushState) {
-          history.pushState(null, null, "##" + hash);
-          updateNav("##" + hash);
+          if (hash){
+            history.pushState(null, null, navhash);
+          } else {
+            // history.pushState(null, null, "");
+            window.location.hash = "";
+          }
         }
       }
     });
   }, 80));
-
-  function updateNav(navhash) {
-    $('.site-nav a').parent().children().removeClass("active");
-    $('.site-nav a[href="'+navhash+'"]').addClass("active");
-  }
 });
 
-// Navigation configuration
 AA_CONFIG = {
   animationLength: 2800,
   easingFunction: 'easeInOutQuad',
