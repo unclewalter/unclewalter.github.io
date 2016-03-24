@@ -27,7 +27,12 @@ $(function() {
       return false;
     });
 
-    // Mobile browser damage control
+    /*
+    Mobile & tablet browser damage control.
+    Note: should probably find a better way
+    to do this. But as it is, this is as
+    clean as it gets, sadly.
+    */
 
     var md = new MobileDetect(window.navigator.userAgent);
 
@@ -35,6 +40,11 @@ $(function() {
       $(".hero").css('background', '#000 url("/assets/img/noise-flat.gif")');
       $(".section-container").css('margin-top', $(window).height());
       $(".site-logo").css('margin-bottom', $(window).height());
+    }
+
+    if (md.is('iPhone')) {
+      $('.site-nav label').css('font-size', '1em');
+      $('.site-nav label').css('padding', '0.5em');
     }
   });
 
