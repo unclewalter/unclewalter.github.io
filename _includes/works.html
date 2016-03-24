@@ -8,15 +8,15 @@
 </div>
 
 {% for work in site.works reversed %}
-<article class="works-item {% for category in work.categories %}category-{{ category | slugify }} {% endfor %}">
+<span class="works-item {% for category in work.categories %}category-{{ category | slugify }} {% endfor %}">
   <a data-featherlight="#{{ work.title | slugify }}"><h3>{{ work.title }}</h3></a>
-</article>
+</span>
 {% endfor %}
 
 <div class="featherlight">
   {% for work in site.works %}
-  <div id="{{ work.title | slugify }}">
+  <article id="{{ work.title | slugify }}">
     {{ work.content }}
-  </div>
+  </article>
   {% endfor %}
 </div>
