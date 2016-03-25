@@ -1,11 +1,12 @@
 $(function() {
+  // Blank screen until page is loaded
   $(window).load(function() {
     $('.page-content').fadeTo('slow', 1);
   });
 
 
   $(document).ready(function() {
-    // Headers
+    // Header text sizing.
     $("h2.section-heading").fitText(1.3, {
       minFontSize: '40px'
     });
@@ -16,7 +17,7 @@ $(function() {
       minFontSize: '40px'
     });
 
-    // Works view
+    // Filtering items in works view
     $(".work-categories .filter").click(function() {
       var filter = $(this).attr("category-filter");
       if (filter == "all") {
@@ -27,6 +28,15 @@ $(function() {
       }
       return false;
     });
+
+    // Only loading SoundCloud iframes when they are displayed.
+    $.featherlight.defaults.beforeOpen = function(event) {
+      $('.featherlight iframe').prop("src", function(){
+        // Set their src attribute to the value of data-src
+        return $(this).attr("data-src");
+      });
+    }
+    $.featherlight.defaults.persist = true;
 
     /*
     Mobile & tablet browser damage control.
@@ -48,17 +58,10 @@ $(function() {
       $('.site-nav label').css('padding', '0.5em');
     }
 
-    $.featherlight.defaults.beforeOpen = function(event) {
-      $('.featherlight iframe').prop("src", function(){
-        // Set their src attribute to the value of data-src
-        return $(this).attr("data-src");
-      });
-    }
-    $.featherlight.defaults.persist = true;
 
   });
 
-  // Navigation
+  // Updating navigation and address bar while scrolling
   var currentHash = "##intro";
   $(document).scroll(_.throttle(function() {
     $('.section-anchor').each(function() {
@@ -83,9 +86,11 @@ $(function() {
         }
       }
     });
-  }, 80));
+  }, 100));
 });
 
+// Configuration for Arbitrary Anchor, which handles the navigation.
+// It uses globals. Ew.
 AA_CONFIG = {
   animationLength: 2800,
   easingFunction: 'easeInOutQuad',
