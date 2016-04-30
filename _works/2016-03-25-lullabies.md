@@ -11,15 +11,15 @@ categories:
 
 **Duration:** 2h49'53"
 
-Lullabies is a series fixed media works that I am releasing as an album. The project started from a generative ambient piece which I put together to help myself get to sleep one night. This series of works explores my insomnia through different lenses. Initially the music served as a treatment, but then it grew into a reflection on the experience and the kinds of things that would keep me awake.
+Lullabies is a series fixed media works that I am releasing as an album. The project started from a generative ambient works which I put together to help myself get to sleep. This series of works explores my insomnia through different lenses. Initially the music served as a treatment, but then it grew into a reflection on the experience of insomnia and the kinds of things that would keep me awake.
 
-To be released April 2016.
+To be released May 2016.
 
 ### Program notes
 
 **Geneva**
 
-I was going through my various field recordings that I'd collected over the past two years and I found a bunch from my trip to Geneva which brought back a lot of memories. So I thought I'd do a piece reflecting that time. Not all the samples are from that trip, in fact mostly not. This is more a reflection rather than a documentation of the trip through sound. I felt very welcome there and I was lucky enough to be put up in Daniel Zea's apartment for the weekend. He's composer and amongst the knick knacks were many scores and instruments. In the mornings I spent a lot of time on the harpsichord that he had in there to start the day, I'd roam around, go to concerts, meet people and end the day with a stiff drink and a night out at Cave 12. By the way, if you're ever in Geneva, go to Cave 12. I would go back in a heartbeat.
+I was going through my various field recordings that I'd collected over the past two years and I found a bunch from my trip to Geneva which brought back a lot of memories. So I thought I'd do a piece reflecting that time. Not all the samples are from that trip, in fact mostly not. This is more a reflection rather than a documentation of the trip through sound. I felt very welcome there and I was lucky enough to be put up in a composer friend's apartment for the weekend.  Amongst the knick knacks in the apartment were many scores and instruments. In the mornings I spent a lot of time on the harpsichord that he had in there to start the day, I'd roam around, go to concerts, meet people and end the day with a night out at Cave 12.
 
 Source samples:
 
@@ -42,6 +42,8 @@ Source sample:
 ----
 
 **Awake in the Other Room**
+
+A nod to Brian Eno's work in the late 70s, early 80s. The piece is a 25% speed version version of one of my piano improvisations, which has been stretched, compressed, pitch-shifted and resampled multiple times. I originally had it stretched out to over 4 hours. Finally I compressed it back to 30 minutes and used spectral treatments and distortion to shape it into a piece.
 
 ----
 
