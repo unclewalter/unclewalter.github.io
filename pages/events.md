@@ -6,7 +6,7 @@ title: "events"
 
 **Release of new record**
 
-A new record to be released next month including some long-form works. Currently preparing to be sent off for mastering.
+A new record to be released this month including some long-form works. Has been mastered and is waiting on artwork.
 
 ---
 
