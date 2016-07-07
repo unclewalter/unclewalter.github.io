@@ -1,13 +1,14 @@
 ---
 title: "Lullabies"
 role: "Composer/Producer"
-hide: true
 categories:
   - electronic
   - acousmatic
   - electroacoustic
   - instrumental
 ---
+
+
 
 **Duration:** 2h49'53"
 
@@ -73,6 +74,10 @@ revealing the hidden melodies that are otherwise masked psycho-acoustically.
 Composition, production, piano, singing bowl  : **Kevan Atkins**
 
 Mastering: **Nick Di Lorenzo @ [Panorama Mastering][4cd2746c]**
+
+<a href="https://geo.itunes.apple.com/au/album/lullabies/id1125348363?mt=1&app=music" style="display:inline-block;overflow:hidden;background:url(/assets/img/itunes-badge.svg) no-repeat;width:165px;height:40px;"></a>
+
+<iframe src="https://embed.spotify.com/?uri=spotify:album:6f6TTb5cJ8izNfforSA4SB&theme=white" style="width:400px;height:280px;margin:1em;" frameborder="0" allowtransparency="true"></iframe>
 
 
   [4cd2746c]: http://www.panoramamastering.com.au/ "Panorama Mastering"
