@@ -2,14 +2,6 @@
 title: "events"
 ---
 
-### May
-
-**Release of new record**
-
-A new record to be released this month including some long-form works. Has been mastered and is waiting on artwork.
-
----
-
 ### October
 
 
