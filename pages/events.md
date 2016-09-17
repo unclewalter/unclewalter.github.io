@@ -7,6 +7,6 @@ title: "events"
 
 **Performance with Monash Art Ensemble**
 
-with Marc Hannaford, Rob Burke, Andrew Ford and others.
+with works by Marc Hannaford, Rob Burke, Joe O'Connor and Eugene Ball.
 
 _14th, 8pm - Sir Zelman Cowan School of Music - Auditorium_
