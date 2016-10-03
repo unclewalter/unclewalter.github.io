@@ -7,7 +7,11 @@ title: "events"
 
 **Performance with Monash Art Ensemble**
 
-with works by Marc Hannaford, Rob Burke, Joe O'Connor and Eugene Ball.
+with works by Marc Hannaford, Rob Burke, Joe O'Connor and Eugene Ball. I will be performing alongside 4 other electronic performers in a new work by Rob Burke.
+
+[Tickets available](http://artsonline.monash.edu.au/mapa/buy-tickets/)
+
+[Facebook event](https://www.facebook.com/events/1707028352953650/)
 
 _14th, 8pm - Sir Zelman Cowan School of Music - Auditorium_
 
@@ -19,4 +23,4 @@ The Tilde New Music Festival is an annual celebration of new and experimental mu
 
 Calls for projects and performances at the festival are now [open](https://tilde.net.au/calls/).
 
-_The 2017 festival will be held on Saturday 21st and Sunday 22nd January in Melbourne. Venue: TBC_
+_The 2017 festival and academy will be held from January 17th through to the 21st in Melbourne. Venue: The Channel @ Arts Centre Melbourne and Testing Grounds on the 21st_
