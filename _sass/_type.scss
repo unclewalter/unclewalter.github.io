@@ -79,5 +79,17 @@ h3 {
     font-size: 3em;
     text-transform: uppercase;
   }
+}
 
+#events-hero {
+  .events-inner {
+    a {
+      color: #ddd;
+      font-size: 1.0em;
+      text-transform: uppercase;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
