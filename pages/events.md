@@ -2,19 +2,6 @@
 title: "events"
 ---
 
-### October
-
-
-**Performance with Monash Art Ensemble**
-
-with works by Marc Hannaford, Rob Burke, Joe O'Connor and Eugene Ball. I will be performing alongside 4 other electronic performers in a new work by Rob Burke.
-
-[Tickets available](http://artsonline.monash.edu.au/mapa/buy-tickets/)
-
-[Facebook event](https://www.facebook.com/events/1707028352953650/)
-
-_14th, 8pm - Sir Zelman Cowan School of Music - Auditorium_
-
 ### January
 
 **Tilde New Music and Sound Art**
