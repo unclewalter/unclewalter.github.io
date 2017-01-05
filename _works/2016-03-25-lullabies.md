@@ -14,7 +14,7 @@ categories:
 
 Lullabies is a series fixed media works that I am releasing as an album. The project started from a generative ambient works which I put together to help myself get to sleep. This series of works explores my insomnia through different lenses. Initially the music served as a treatment, but then it grew into a reflection on the experience of insomnia and the kinds of things that would keep me awake.
 
-To be released May 2016.
+Released June 2016.
 
 ### Program notes
 
