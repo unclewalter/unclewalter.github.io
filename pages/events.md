@@ -1,24 +1,12 @@
 ---
 title: "events"
 ---
-### September
+### January 2019
 
-**Bendigo International Festival of Exploratory Music**
+**Tilde New Music Week**
 
-_September 1 - 4_
+_January 13 - 18_
 
-Performing electronics in two recitals:
+Information:
 
->_Nihilist Cipher_ with Mauricio Carrasco
-
->_Eidos_ with Anna Kwiatkowska.
-
-Two new works being premiered:
-
->_Simple Sabotage Field Manual_ for prepared guitar and electronics
-
->_Escape To..._ for string quartet
-
-Tickets and information:
-
-[bifem.com.au](http://www.bifem.com.au/)
+[tilde.net.au](https://tilde.net.au/)
