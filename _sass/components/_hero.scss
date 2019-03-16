@@ -23,6 +23,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-repeat: repeat;
     background-image: url("/assets/img/noise-flat.gif")!important;
   }
+  #intro {
+      background-image: url("/assets/img/animation-90deg.gif")!important;
+      background-size: 100% auto!important;
+      background-repeat: no-repeat!important;
+  }
 }
 
 .block {
