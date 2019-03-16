@@ -13,7 +13,7 @@ body, html {
 
   .more {
     font-size: 6em;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.4);
     display: flex;
     align-items: flex-end;
     height: 100%;
@@ -42,11 +42,11 @@ body, html {
     background-position: center top;
 }
 
-#about {
+#bio {
   @extend .block;
   margin-bottom: -5em;
 
-  .about-inner {
+  .bio-inner {
     transform: skewY(-1deg);
 
   }

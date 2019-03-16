@@ -78,6 +78,10 @@ h3 {
     font-family: 'Press Start 2P', monospace;
     font-size: 3em;
     text-transform: uppercase;
+    text-shadow: 4px 0 0 #000, -4px 0 0 #000, 0 4px 0 #000, 0 -4px 0 #000, 4px 4px #000, -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000;
+  }
+  h2 {
+     text-shadow: 4px 0 0 #000, -4px 0 0 #000, 0 4px 0 #000, 0 -4px 0 #000, 4px 4px #000, -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000; 
   }
 }
 

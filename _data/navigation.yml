@@ -1,5 +1,5 @@
-- title: "bio"
-  url: "#bio"
+- title: "about"
+  url: "#about"
 
 - title: "works"
   url: "#works"
@@ -8,9 +8,6 @@
 - title: "projects"
   url: "#projects"
   include: "projects.html"
-
-- title: "events"
-  url: "#events"
 
 - title: "contact"
   url: "#contact"
