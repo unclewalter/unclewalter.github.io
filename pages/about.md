@@ -2,7 +2,7 @@
 title: about 
 ---
 
-Kevan Atkins is a composer, sound artist, and engineer. His practice has grown out of an interest in the intersections between technology, stories, ideas, materials, and process, realised through diverse collaborations, new works and supporting work within the community.
+Kevan Atkins is a sound engineer, sound artist and composer. His practice has grown out of an interest in the intersections between technology, stories, ideas, materials, and process, realised through diverse collaborations, new works and supporting work within the community.
 
 Kevan is passionate about sound. Whether operating sound, designing and optimising sound systems, or production managing an event, Kevan is able draw on a wide range of experience from both sides of the mixing console. Having worked across large and small scale events and varying budgets and constraints, his experience allows him to adapt to a wide variety of situations ranging from corporate and music events through to theatre and experimental art forms. He is a passionate and highly competent individual with solid and varied experience to bring to a project.
 
