@@ -5,9 +5,9 @@
   url: "#works"
   include: "works.html"
 
-- title: "projects"
-  url: "#projects"
-  include: "projects.html"
+#- title: "projects"
+#  url: "#projects"
+#  include: "projects.html"
 
 - title: "contact"
   url: "#contact"
