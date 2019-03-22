@@ -18,4 +18,4 @@ One day, in a café full of ‘yummy mummies’, Jude loses the plot and kicks a
 
 This witty and touching play premiered at the Brighton Fringe Festival, before a critically acclaimed run at the Edinburgh International Festival Fringe in 2015.
 
-“I am the Édith f**king Piaf of the empty womb. Je ne regrettay f**king rien”.
+“I am the Édith fucking Piaf of the empty womb. Je ne regrettay fucking rien”.
